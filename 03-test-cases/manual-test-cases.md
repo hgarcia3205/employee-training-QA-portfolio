@@ -256,9 +256,10 @@ Not Run
 3. Enter matching employee information.
 4. Select Save.
 
+
 **Expected Result:**
-- System follows defined duplicate-record handling behavior.
-- Duplicate data should not create an uncontrolled duplicate record.
+- The system may allow employees with identical names if each record has a unique Employee ID.
+- A duplicate name alone should not cause an uncontrolled or invalid record state.
 
 **Actual Result:**
 To be completed during test execution.
