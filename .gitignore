@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Playwright generated output
+playwright-report/
+test-results/
+blob-report/
+
+# Playwright temporary files
+*.trace
+*.webm
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code local settings
+.vscode/
+
+# Coverage output
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
